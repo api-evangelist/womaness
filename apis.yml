@@ -1,19 +1,46 @@
 aid: womaness
 name: Womaness
-description: Womaness is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help
+  them navigate the phases their bodies move through around menopause. The direct-to-consumer company
+  sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health
+  and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe)
+  through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of
+  Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no
+  first-party public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://womaness.com/cdn/shop/files/womaness-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wellness
+- Menopause
+- Women's Health
+- Skincare
+- Supplements
+- Direct to Consumer
+- Ecommerce
+- Shopify
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://womaness.com
+- type: Documentation
+  url: https://womaness.com/pages/faqs
+- type: Support
+  url: https://womaness.com/pages/contact
+- type: PrivacyPolicy
+  url: https://womaness.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://womaness.com/policies/terms-of-service
+- type: WellKnown
+  url: well-known/womaness-well-known.yml
+- type: LLMsTxt
+  url: llms/womaness-llms.txt
+- type: DomainSecurity
+  url: security/womaness-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

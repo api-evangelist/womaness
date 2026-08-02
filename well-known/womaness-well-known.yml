@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://womaness.com/.well-known/*
+note: >-
+  womaness.com is a Shopify-hosted DTC storefront. The openid-configuration and
+  oauth-authorization-server documents are Shopify Customer Account OIDC/OAuth2
+  discovery documents served on the store host (issuer shopify.com/authentication/50691899575),
+  not a first-party Womaness API. Captured verbatim as real fetched artifacts.
+host: womaness.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 200
+  file: womaness-openid-configuration.json
+  type: WellKnown
+  content_type: application/json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: womaness-oauth-authorization-server.json
+  type: WellKnown
+  content_type: application/json
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
